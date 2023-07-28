@@ -1,8 +1,8 @@
-##Job Application and Hiring System
+**Job Application and Hiring System**
 
 This Java program simulates a job application and hiring system, allowing candidates to apply for different positions, go through the review process, and eventually get hired if successful. The program uses various classes to manage the hiring process efficiently.
 
-##Table of Contents
+**Table of Contents**
 
 Introduction
 How to Use
