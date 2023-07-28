@@ -1,18 +1,21 @@
-Job Application and Hiring System
+##Job Application and Hiring System
+
 This Java program simulates a job application and hiring system, allowing candidates to apply for different positions, go through the review process, and eventually get hired if successful. The program uses various classes to manage the hiring process efficiently.
 
-Table of Contents
+##Table of Contents
+
 Introduction
 How to Use
 Classes Overview
 Usage
 Customization
 Contributing
-License
-Introduction
+
+**Introduction**
+
 The job application and hiring system is designed to streamline the recruitment process for a company. It includes classes representing different components of the hiring process, such as candidates, positions, reviewers, interviewers, and hiring managers. Additionally, the system generates reports for each stage of the process.
 
-How to Use
+**How to Use**
 Clone the repository or copy the Java code into your preferred Java IDE.
 
 The main class is Main.java, which contains the main method and serves as the entry point for the application.
@@ -21,7 +24,8 @@ In the main method, you can define positions using the Position class and candid
 
 Run the Main class to start the job application and hiring process.
 
-Classes Overview
+**Classes Overview**
+
 Person.java
 Person is a base class representing a person with common attributes such as name, phone number, and email ID.
 Position.java
@@ -39,7 +43,8 @@ Report is an abstract class representing a report generated during the hiring pr
 PdfReport and HtmlReport are subclasses of Report, responsible for generating reports in PDF and HTML formats, respectively.
 Enums
 PositionStatus and CandidateStatus are enums defining different statuses for positions and candidates, respectively.
-Usage
+
+**Usage**
 Define positions and candidates in the main method of the Main class.
 
 Reviewers, interviewers, and hiring managers are represented as arrays in the main method. Add individuals to these arrays to assign them specific roles.
@@ -50,7 +55,8 @@ The program will automatically apply candidates for open positions, review them,
 
 The hiring decisions and review/interview statuses will be printed during the process.
 
-Customization
+**Customization**
+
 You can customize the program to meet specific requirements. Here are some possible modifications:
 
 Add more attributes to the Person class or create subclasses for different types of people (e.g., Applicant, Employee, etc.).
@@ -63,6 +69,7 @@ Customize the report generation process to include additional details or output 
 
 Improve error handling and add user input options for a more interactive experience.
 
-Contributing
+**Contributing**
+
 Contributions to this project are welcome! If you find any bugs, want to add new features, or improve existing ones, feel free to submit issues or pull requests.
 
