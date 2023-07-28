@@ -5,10 +5,15 @@ This Java program simulates a job application and hiring system, allowing candid
 **Table of Contents**
 
 Introduction
+
 How to Use
+
 Classes Overview
+
 Usage
+
 Customization
+
 Contributing
 
 **Introduction**
@@ -16,6 +21,7 @@ Contributing
 The job application and hiring system is designed to streamline the recruitment process for a company. It includes classes representing different components of the hiring process, such as candidates, positions, reviewers, interviewers, and hiring managers. Additionally, the system generates reports for each stage of the process.
 
 **How to Use**
+
 Clone the repository or copy the Java code into your preferred Java IDE.
 
 The main class is Main.java, which contains the main method and serves as the entry point for the application.
@@ -45,6 +51,7 @@ Enums
 PositionStatus and CandidateStatus are enums defining different statuses for positions and candidates, respectively.
 
 **Usage**
+
 Define positions and candidates in the main method of the Main class.
 
 Reviewers, interviewers, and hiring managers are represented as arrays in the main method. Add individuals to these arrays to assign them specific roles.
